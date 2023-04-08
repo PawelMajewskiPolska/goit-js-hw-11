@@ -113,4 +113,21 @@ body {
 
 .info-item {
   margin-block: 5px;
+}
+
+.scrollup {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 73px;
+  right: 35px;
+}
+
+.goup {
+  margin-block: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
