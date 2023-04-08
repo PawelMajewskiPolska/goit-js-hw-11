@@ -25,7 +25,7 @@ const renderPictures = allPhotos => {
       }) => {
         return `<div class="photo-card">
         <a href="${largeImageURL}">
-        <img class="photo" src="${webformatURL}" alt="${tags}" height="137" loading="lazy" />
+        <img class="photo" src="${webformatURL}" alt="${tags}" loading="lazy" />
         </a>
         <div class="info">
           <p class="info-item">${likes}

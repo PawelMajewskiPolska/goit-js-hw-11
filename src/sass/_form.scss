@@ -12,7 +12,7 @@
 .load-more {
   width: 150px;
   margin-block: 30px;
-  margin-left: 200px;
+  margin-left: 300px;
   background-color: #870121;
   border-radius: 5px;
   border-color: 3px rgba(201, 5, 50);
@@ -25,6 +25,10 @@
   display: none;
 }
 
+.photo {
+  width: 300px;
+}
+
 .gallery {
   width: 100%;
   padding-left: 15px;
@@ -32,7 +36,8 @@
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+  align-items: baseline;
   gap: 10px;
   background-color: #4b5457;
   /*  padding-bottom: 30px; */
@@ -42,9 +47,9 @@
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
+  width: 300px;
   display: flex;
   flex-direction: column;
-  width: auto;
   height: auto;
   border-color: 3px rgba(201, 5, 50);
   filter: drop-shadow(-1px 6px 3px rgb(180, 180, 91));
