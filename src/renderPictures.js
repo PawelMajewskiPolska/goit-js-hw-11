@@ -28,18 +28,22 @@ const renderPictures = allPhotos => {
         <img class="photo" src="${webformatURL}" alt="${tags}" loading="lazy" />
         </a>
         <div class="info">
-          <p class="info-item">${likes}
-            <b>Likes</b>
-          </p>
-          <p class="info-item">${views}
-            <b>Views</b>
-          </p>
-          <p class="info-item">${comments}
-            <b>Comments</b>
-          </p>
-          <p class="info-item">${downloads}
-            <b>Downloads</b>
-          </p>
+        <div class="info-item">
+          <p class="info-item__text">${likes}</p>
+            <p class="info-item__text" >Likes</p>
+            </div>
+            <div class="info-item__margin-left">
+          <p class="info-item__text">${views}</p>
+            <p class="info-item__text">Views</p>
+            </div>
+            <div class="info-item__margin-right">
+          <p class="info-item__text">${comments}</p>
+            <p class="info-item__text">Comments</p>
+            </div>
+            <div class="info-item">
+          <p class="info-item__text">${downloads} </p>
+          <p class="info-item__text">Downloads</p>
+            </div>
         </div>
       </div>`;
       }
