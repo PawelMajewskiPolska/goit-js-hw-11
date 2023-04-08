@@ -28,6 +28,7 @@ const perPage = 40;
 const getPhotos = async e => {
   try {
     e.preventDefault();
+    displayGallery.innerHTML = '';
     page = 1;
 
     const pictures = await getAllPictures(perPage, page);
