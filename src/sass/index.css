@@ -26,12 +26,21 @@
 }
 
 .search-form {
-  width: 700px;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
-  margin-left: 130px;
   margin-bottom: 30px;
+}
+
+.search-form__div {
+  display: flex;
+  width: 700px;
+  justify-content: center;
   background-color: #4b5457;
-  padding-block: 3px;
+  height: 30px;
+  padding-block: 5px;
   padding-left: 3px;
   border-radius: 3px;
 }
