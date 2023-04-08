@@ -54,6 +54,7 @@ body {
   border-radius: 3px;
 }
 
+/* rgb(180, 180, 91) */
 .load-more {
   width: 150px;
   margin-block: 30px;
@@ -61,7 +62,7 @@ body {
   background-color: #870121;
   border-radius: 5px;
   border-color: 3px rgb(201, 5, 50);
-  filter: drop-shadow(-1px 6px 3px rgb(180, 180, 91));
+  filter: drop-shadow(-1px 6px 3px rgb(207, 225, 225));
   color: rgb(207, 225, 225);
   font-weight: 500;
 }
@@ -97,7 +98,7 @@ body {
   flex-direction: column;
   height: auto;
   border-color: 3px rgb(201, 5, 50);
-  filter: drop-shadow(-1px 6px 3px rgb(180, 180, 91));
+  filter: drop-shadow(-1px 6px 3px rgb(207, 225, 225));
 }
 
 .info {
