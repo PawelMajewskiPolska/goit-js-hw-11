@@ -92,9 +92,6 @@ const getPhotos = async e => {
       const pagination = new Pagination('pagination', options);
       pagination.on('afterMove', getMorePictures);
     }
-
-    const name = qs('input');
-    name.value = '';
   } catch {
     console.log('error');
   }
